@@ -1004,6 +1004,20 @@ font-size: var(--ui-text-xs);
 margin-bottom: var(--ui-space-3)
 }
 
+.agency-editorial-summary {
+color: var(--ui-muted);
+font-size: var(--ui-text-sm);
+line-height: 1.5;
+margin-top: var(--ui-space-3);
+max-width: 38ch
+}
+
+@media (max-width: 760px) {
+.agency-editorial-summary {
+    display: none
+}
+}
+
 .agency-editorial .r-text-link {
 color: var(--ui-link);
 margin-top: var(--ui-space-4);
