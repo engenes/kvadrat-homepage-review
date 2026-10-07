@@ -1,0 +1,9 @@
+Use case: product-mockup
+Asset type: real-estate service card raster illustration, buying a new-build apartment, premium contemporary Russian bank-like website, displayed at 210–280 CSS pixels.
+Primary request: two contemporary mid-rise residential architectural models, around eight and eleven floors, on one neat tiny site base with realistic window detail and vivid cyan glass balcony railings. Graphite lower facades, elegant ivory upper architecture, refined warm oak-toned entrance accents. One restrained green plant only. No busy landscape.
+Style/medium: premium photorealistic 3D product still life, detailed tangible materials, high-end architectural product visualization. Real glass, brushed metal, architectural ceramic cladding. Not a flat vector, not an outline icon, not an emoji, not simplistic clay.
+Composition/framing: single centered complete miniature silhouette, 3/4 elevated camera, landscape 4:3 frame. Group occupies 75–85% of frame with clean generous padding all around, every object entirely visible. Two buildings form a balanced compact assembly on one single tidy low base.
+Lighting/mood: soft directional studio light, crisp material highlights, premium physical miniature, vivid and welcoming.
+Color palette: architectural cream and ivory, dark graphite, vivid cyan #57c4ed accents, brushed metal, restrained warm natural oak.
+Scene/backdrop: genuine transparent alpha background, isolated object with subtle natural contact shadow only. No backdrop plane, no colored background.
+Constraints: no text, no letters, no numbers, no brand, no logos, no watermarks, no people, no typography. Preserve refined realistic surfaces and confident rich color. This is one of a coordinated family of real-estate service miniatures.

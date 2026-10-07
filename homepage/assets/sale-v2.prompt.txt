@@ -1,0 +1,9 @@
+Use case: product-mockup
+Asset type: real-estate service card raster illustration, sale of an apartment, premium contemporary Russian bank-like website, displayed at 210–280 CSS pixels.
+Primary request: an elegant compact architectural apartment cutaway with warm natural oak floor, cream walls, a dark graphite entry door, a small vivid cyan sale tag with absolutely no writing and two polished metal keys in the foreground. Focus on preparing a property for sale.
+Style/medium: premium photorealistic 3D product still life, detailed tangible materials, high-end architectural product visualization. Real glass, brushed and polished metal, rich oak grain. Not a flat vector, not an outline icon, not an emoji, not simplistic clay.
+Composition/framing: single centered complete miniature silhouette, 3/4 elevated camera, landscape 4:3 frame. Group occupies 75–85% of frame with clean generous padding all around, every object entirely visible.
+Lighting/mood: soft directional studio light, crisp material highlights, premium physical miniature, vivid and welcoming.
+Color palette: architectural cream and ivory, dark graphite, vivid cyan #57c4ed accents, brushed metal, warm natural oak.
+Scene/backdrop: genuine transparent alpha background, isolated object with subtle natural contact shadow only. No backdrop plane, no colored background.
+Constraints: no text, no letters, no numbers, no brand, no logos, no watermarks, no people, no typography. Small cyan tag is blank. Preserve refined realistic surfaces and confident rich color. This is one of a coordinated family of real-estate service miniatures.
