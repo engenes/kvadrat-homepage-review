@@ -1,71 +1,72 @@
 import {art} from './ui.js';
 
-// Photographs and event descriptions from the user's reference mockup.
-// No publication year, exact dates or audience figures are inferred.
+// Photographs and event context: assets/agency-provenance.json.
+// Dates and audience figures are omitted because the source does not verify them.
 export const companyStories = [
   {
-    "id": "orenburg-filming",
-    "category": "Соцсети",
-    "title": "Снимаем истории об Оренбурге",
-    "cover": art("agency-olesya-filming.jpg"),
-    "coverAlt": "Олеся на съёмках ролика об Оренбурге",
-    "paragraphs": [
-      "Команда «Квадрата» снимает ролики об истории Оренбурга и о том, как меняется город. На фотографии — Олеся во время съёмки одного из материалов."
+    id: 'orenburg-filming',
+    category: 'Жизнь города',
+    title: 'Оренбург в наших роликах',
+    cover: art('agency-olesya-filming.jpg'),
+    coverAlt: 'Олеся на съёмке ролика: оператор снимает её на городской площади',
+    tone: 'photo',
+    date: null,
+    readTime: '1 мин',
+    paragraphs: [
+      'Снимаем ролики об истории Оренбурга и о том, как меняется наш город. Публикуем их в социальных сетях агентства.',
+      'На фотографии — Олеся во время съёмки одного из роликов.',
     ],
-    "tone": "photo",
-    "readTime": "1 мин",
-    "sourceUrl": "https://danisarslanov.github.io/kvadrat/#news"
   },
   {
-    "id": "team-travel",
-    "category": "Команда",
-    "title": "Путешествие всей командой",
-    "cover": art("agency-team-travel.jpg"),
-    "coverAlt": "Команда «Квадрата» на совместном сплаве",
-    "paragraphs": [
-      "Команда «Квадрата» вместе отправилась в путешествие по городам России. На фотографии из этого материала — участники командного сплава."
+    id: 'team-travel',
+    category: 'Наша команда',
+    title: 'Вместе за пределами офиса',
+    cover: art('agency-team-travel.jpg'),
+    coverAlt: 'Команда «Квадрата» в спасательных жилетах на природе',
+    tone: 'photo',
+    date: null,
+    readTime: '1 мин',
+    paragraphs: [
+      'Путешествуем всей командой. На фотографии — один из совместных выездов на природу.',
+      'В этот раз общий снимок получился в спасательных жилетах — среди деревьев, под открытым небом.',
     ],
-    "tone": "photo",
-    "readTime": "1 мин",
-    "sourceUrl": "https://danisarslanov.github.io/kvadrat/#news"
   },
   {
-    "id": "igor-birthday",
-    "category": "События",
-    "title": "День рождения Игоря",
-    "cover": art("agency-birthday.jpg"),
-    "coverAlt": "Поздравление Игоря с днём рождения",
-    "paragraphs": [
-      "Команда отметила день рождения Игоря, директора по развитию агентства. На фотографии — один из моментов поздравления."
+    id: 'clear-documents',
+    category: 'Подготовка к сделке',
+    title: 'Какие вопросы задать о документах',
+    tone: 'blue',
+    date: null,
+    readTime: '1 мин',
+    paragraphs: [
+      'До встречи со специалистом запишите, какие документы у вас уже есть и что вызывает вопросы. Уточните назначение каждого документа и на каком этапе он понадобится.',
+      'Обсудите, кто отвечает за подготовку и проверку документов, сколько времени это занимает и что входит в сопровождение. Состав документов зависит от объекта и условий сделки.',
     ],
-    "tone": "photo",
-    "readTime": "1 мин",
-    "sourceUrl": "https://danisarslanov.github.io/kvadrat/#news"
   },
   {
-    "id": "igor-mann-meeting",
-    "category": "Развитие",
-    "title": "На одной сцене с Игорем Манном",
-    "cover": art("agency-stage.jpg"),
-    "coverAlt": "Представители агентства на сцене с Игорем Манном",
-    "paragraphs": [
-      "Встретились с Игорем Манном и обсудили развитие компании. Разговор был посвящён в том числе улучшению сервиса для клиентов агентства."
+    id: 'service-discussion',
+    category: 'Развитие агентства',
+    title: 'На сцене — о работе с клиентами',
+    cover: art('agency-stage.jpg'),
+    coverAlt: 'Четыре участника встречи с Игорем Манном сидят на сцене с микрофонами',
+    tone: 'photo',
+    date: null,
+    readTime: '1 мин',
+    paragraphs: [
+      'Участвовали во встрече с Игорем Манном. Обсуждали развитие компании и улучшение сервиса для клиентов.',
+      'На фотографии — разговор участников встречи на сцене.',
     ],
-    "tone": "photo",
-    "readTime": "1 мин",
-    "sourceUrl": "https://danisarslanov.github.io/kvadrat/#news"
   },
   {
-    "id": "kvadrat-football",
-    "category": "Спорт",
-    "title": "Футбольная команда «Квадрат»",
-    "cover": art("agency-football.jpg"),
-    "coverAlt": "Участники футбольной команды «Квадрат» на поле",
-    "paragraphs": [
-      "У «Квадрата» есть своя футбольная команда. В материалах агентства — фотография игроков и новость о серебре первой лиги Оренбурга."
+    id: 'first-conversation',
+    category: 'Консультация',
+    title: 'Что обсудить на первой консультации',
+    tone: 'paper',
+    date: null,
+    readTime: '1 мин',
+    paragraphs: [
+      'Расскажите, хотите ли вы купить, продать или арендовать недвижимость. Обозначьте сроки и бюджет, а при продаже — основные характеристики объекта.',
+      'Уточните состав и стоимость услуг, порядок работы и способ связи с агентом. Запишите вопросы заранее, чтобы обсудить условия сотрудничества до принятия решения.',
     ],
-    "tone": "photo",
-    "readTime": "1 мин",
-    "sourceUrl": "https://danisarslanov.github.io/kvadrat/#news"
-  }
+  },
 ];

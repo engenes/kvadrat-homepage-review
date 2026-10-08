@@ -76,35 +76,3 @@
 /* Descriptive titles must fit together with the reading action on narrow screens. */
 .company-story-card{min-height:400px}
 @media(max-width:520px){.company-story-title{font-size:clamp(26px,7.5vw,32px)}}
-
-/* Compact homepage variant: the original story rail within the current type scale. */
-.company-life-compact{padding-block:var(--ui-space-16)}
-.company-life-compact .company-life-heading{gap:var(--ui-space-8)}
-.company-life-compact .company-life-heading h2{margin:0;font-size:var(--ui-heading-sm);line-height:1.13;font-weight:600;letter-spacing:var(--ui-tracking-heading)}
-.company-life-compact .company-life-heading>p{max-width:440px;font-size:var(--ui-text-base);line-height:var(--ui-leading-body);color:var(--ui-muted-on-dark)}
-.company-life-compact .company-life-toolbar{margin:var(--ui-space-6) 0 var(--ui-space-4)}
-.company-life-compact .company-life-toolbar>p{font-size:var(--ui-text-xs)}
-.company-life-compact .company-demo-label,.company-life-compact [data-company-position]{font-size:var(--ui-text-xs)}
-.company-life-compact .company-story-card{min-height:360px;aspect-ratio:auto;padding:var(--ui-space-6);border-radius:var(--ui-radius-md)}
-.company-life-compact .company-story-top{font-size:var(--ui-text-xs);letter-spacing:0;text-transform:none;align-items:flex-start}
-.company-life-compact .company-story-top>span{border:0;padding:0}
-.company-life-compact .company-story-date,.company-life-compact .company-story-open{font-size:var(--ui-text-xs)}
-.company-life-compact .company-story-title{font-size:var(--ui-text-xl);line-height:1.12;font-weight:600;letter-spacing:var(--ui-tracking-heading);max-width:none;text-wrap:initial}
-.company-life-compact .company-life-footer{padding:var(--ui-space-4) 0 0;border:0}
-.company-life-compact .company-life-footer>p,.company-life-compact .company-life-footer .r-text-link{font-size:var(--ui-text-xs)}
-.gallery-section>.company-life-compact{border-radius:var(--ui-radius-lg)}
-.gallery-section>.company-life-compact>.r-container{width:calc(100% - 64px)}
-@media(max-width:1100px){.company-life-compact .company-story-card{padding:var(--ui-space-5)}}
-@media(max-width:760px){
- .company-life-compact{padding-block:var(--ui-space-10)}
- .company-life-compact .company-life-heading>p{margin-top:var(--ui-space-3)}
- .company-life-compact .company-life-toolbar{margin-top:var(--ui-space-5)}
- .company-life-compact .company-demo-label{padding-left:0}
- .company-life-compact .company-story-card{min-height:340px}
- .gallery-section>.company-life-compact>.r-container{width:calc(100% - 40px)}
-}
-@media(forced-colors:active){
- .company-story-card{outline:1px solid CanvasText}
- .company-story-card:focus-visible{outline:3px solid Highlight;outline-offset:-3px}
- .company-story-top,.company-story-bottom{background:Canvas;color:CanvasText}
-}

@@ -1,9 +1,0 @@
-Use case: product-mockup
-Asset type: real-estate service card raster illustration, purchasing an apartment, premium contemporary Russian bank-like website, displayed at 210–280 CSS pixels.
-Primary request: an attractive compact architectural cutaway of one furnished living room, with blue upholstered lounge chair in vivid cyan #57c4ed, warm natural oak wood console and oak floor, ivory and cream walls, dark graphite window frames and real glass. One real polished metal apartment key lies clearly in the foreground. Discernible material depth.
-Style/medium: premium photorealistic 3D product still life, detailed tangible materials, high-end architectural product visualization. Real glass, brushed and polished metal, rich oak grain and tangible textile upholstery. Not a flat vector, not an outline icon, not an emoji, not simplistic clay.
-Composition/framing: single centered complete miniature silhouette, 3/4 elevated camera, landscape 4:3 frame. Group occupies 75–85% of frame with clean generous padding all around, every object entirely visible. Balanced compact object assembly, suitable for a service tile at small scale.
-Lighting/mood: soft directional studio light, crisp material highlights, premium physical miniature, vivid and welcoming.
-Color palette: architectural cream and ivory, dark graphite, vivid cyan #57c4ed accents, brushed metal, warm natural oak.
-Scene/backdrop: genuine transparent alpha background, isolated object with subtle natural contact shadow only. No backdrop plane, no colored background.
-Constraints: no text, no letters, no numbers, no brand, no logos, no watermarks, no people, no typography. Preserve refined realistic surfaces and confident rich color. This is one of a coordinated family of real-estate service miniatures.
