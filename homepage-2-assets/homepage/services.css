@@ -1,0 +1,909 @@
+/* Homepage v3 compositions. Shared controls, tokens and retained cards keep their
+   existing sources. Desktop is the approved scope of this iteration. */
+.r-intro.r-intro--services {
+    padding-bottom: 0;
+    overflow: hidden
+}
+
+.r-intro--services .r-hero {
+    display: grid;
+    grid-template-columns:minmax(0, 1fr) 400px;
+    gap: 64px;
+    align-items: start;
+    min-height: 610px;
+    padding-top: 44px;
+    padding-bottom: 42px
+}
+
+.r-intro--services .r-hero-copy {
+    max-width: none;
+    padding-top: 8px
+}
+
+.r-intro--services .r-hero h1 {
+    font-size: clamp(64px, 6.2vw, 88px);
+    font-weight: 600;
+    line-height: 1.02;
+    letter-spacing: -.04em;
+    margin-top: 28px
+}
+
+.r-intro--services .r-hero h1 span {
+    color: inherit
+}
+
+.r-intro--services .hero-architecture {
+    filter: none;
+    object-position: 50% 40%
+}
+
+.r-intro.r-intro--services:before {
+    background: linear-gradient(0deg, #252c2f 0%, #252c2f00 70%), linear-gradient(90deg, #252c2ff5 0%, #252c2fd9 40%, #252c2f45 100%)
+}
+
+.r-intro--services .r-hero-description {
+    max-width: 580px;
+    margin-top: 26px
+}
+
+.r-intro--services .r-hero-actions {
+    margin-top: 28px
+}
+
+.hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: fit-content;
+    max-width: 520px;
+    margin-top: 38px
+}
+
+.hero-trust > img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex: none
+}
+
+.hero-trust b {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3
+}
+
+.hero-trust > span > span {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--ui-muted-on-dark)
+}
+
+.hero-trust-arrow {
+    margin-left: 12px;
+    color: var(--ui-muted-on-dark)
+}
+
+.hero-trust:hover b, .hero-trust:hover .hero-trust-arrow {
+    color: var(--cyan)
+}
+
+.r-promotions.r-promotions--hero {
+    padding: 0;
+    min-width: 0;
+    color: var(--ink)
+}
+
+.r-promotions--hero .promotion-surface {
+    background: var(--ui-editorial-cool)
+}
+
+.r-promotions--hero .promotion-section-head {
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    color: var(--ui-on-dark)
+}
+
+.r-promotions--hero .promotion-section-head h2 {
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -.01em;
+    margin: 0
+}
+
+.r-promotions--hero .promotion-position {
+    color: var(--ui-muted-on-dark)
+}
+
+.r-promotions--hero .promotion-slide {
+    display: flex;
+    flex-direction: column;
+    min-height: 440px
+}
+
+.r-promotions--hero .promotion-copy {
+    display: block;
+    padding: 26px 28px 0
+}
+
+.r-promotions--hero .promotion-copy h3 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.06;
+    max-width: none;
+    margin-top: 15px
+}
+
+.r-promotions--hero .promotion-details {
+    border: 0;
+    padding: 0;
+    margin-top: 17px
+}
+
+.r-promotions--hero .promotion-description {
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.r-promotions--hero .promotion-note {
+    font-size: 11px;
+    line-height: 1.45;
+    margin-top: 10px;
+    color: var(--ui-muted)
+}
+
+.r-promotions--hero .promotion-image {
+    flex: 1;
+    min-height: 180px
+}
+
+.r-promotions--hero .promotion-image img {
+    width: 80%;
+    height: 178px;
+    right: 6px;
+    bottom: 18px;
+    object-fit: contain;
+    object-position: right bottom
+}
+
+.r-promotions--hero .promotion-action {
+    left: 22px;
+    right: 22px;
+    bottom: 20px;
+    justify-content: flex-start
+}
+
+.r-promotions--hero .promotion-controls {
+    margin-top: 12px;
+    gap: 12px;
+    padding: 0;
+    justify-content: space-between
+}
+
+.promotion-control-hint {
+    font-size: 11px;
+    color: var(--ui-muted-on-dark);
+    min-height: 44px;
+    min-width: 88px;
+    padding: 0 8px;
+    border-radius: 8px
+}
+
+.promotion-control-hint:hover {
+    color: var(--ui-on-dark)
+}
+
+.r-promotions--hero .carousel-arrows {
+    background: #ffffff12
+}
+
+.r-promotions--hero .carousel-arrows button {
+    background: #ffffff0c;
+    color: var(--ui-on-dark)
+}
+
+.r-promotions--hero .carousel-arrows button:hover {
+    background: #57c4ed30
+}
+
+.r-promotions--hero .promotion-pagination {
+    background: #ffffff12
+}
+
+.r-promotions--hero .promotion-pagination button span {
+    background: var(--ui-muted-on-dark)
+}
+
+.r-promotions--hero .promotion-pagination button[aria-current="true"] {
+    background: #ffffff14
+}
+
+.r-promotions--hero .promotion-pagination button[aria-current="true"] span {
+    background: var(--cyan)
+}
+
+.agency-primary-services {
+    display: grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap: 24px
+}
+
+.agency-services .r-section-head h2, .agency-proof h2 {
+    font-weight: 600
+}
+
+.agency-service {
+    position: relative;
+    isolation: isolate;
+    container: agency-service / inline-size;
+    overflow: hidden;
+    min-width: 0;
+    min-height: 448px;
+    padding: 34px 32px 76px;
+    border-radius: 18px;
+    background: var(--ui-editorial-cool)
+}
+
+.agency-service--sell, .agency-service--rent {
+    background: var(--ui-editorial-warm)
+}
+
+.agency-service-copy {
+    position: relative;
+    z-index: 1;
+    max-width: 310px
+}
+
+.agency-service h3 {
+    font-size: 38px;
+    line-height: 1.06;
+    font-weight: 600;
+    letter-spacing: var(--ui-tracking-heading)
+}
+
+/* The service scope is a static label, distinct from the description and actions. */
+.agency-service-subtitle {
+    width: fit-content;
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: var(--ui-weight-semibold);
+    line-height: 1.4;
+    margin-top: 16px;
+    color: var(--ui-ink);
+    text-wrap: pretty
+}
+
+.agency-service-copy > p:not(.agency-service-subtitle) {
+    font-size: 15px;
+    line-height: 1.55;
+    margin-top: 18px;
+    color: var(--ui-ink);
+    max-width: 255px;
+    min-height: 6.2em
+}
+
+.agency-service-copy > .r-button {
+    margin-top: 24px
+}
+
+.agency-service-art {
+    position: absolute;
+    right: -26px;
+    bottom: 26px;
+    width: 56%;
+    height: 280px;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* A quiet translucent shelf makes every secondary route visible at rest.
+   The opaque copy and icons stay readable without a backdrop-filter layer. */
+.agency-service-links {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #ffffff3d;
+    backdrop-filter: blur(8px);
+}
+
+.agency-service-links a, .agency-service-links button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex: 1;
+    min-width: 0;
+    min-height: 44px;
+    padding: 8px 12px;
+    color: var(--ui-ink);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: left;
+    border-radius: 10px;
+    transition: background-color .5s;
+}
+
+.agency-service-links .ui-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--ui-link)
+}
+
+.agency-service-links a:hover, .agency-service-links button:hover {
+    background: #f0f6f970;
+}
+
+.agency-service-links :is(a,button):focus-visible {
+    outline-offset: 0
+}
+
+.agency-support-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 40px 0 12px;
+    padding-top: 36px;
+    border-top: 1px solid var(--ui-divider)
+}
+
+.agency-support-head h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -.025em
+}
+
+.agency-support-head p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ui-muted)
+}
+
+.agency-support-grid {
+    display: grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    column-gap: 40px
+}
+
+/* Open rows keep these six routes compact; the flexible description row
+   aligns actions without reserving an empty second heading line. */
+.agency-support-item {
+    display: grid;
+    grid-template-columns:30px minmax(0, 1fr);
+    grid-template-rows:auto 1fr auto;
+    gap: 0 14px;
+    min-width: 0;
+    padding: 26px 0 22px
+}
+
+.agency-support-item:nth-child(n+4) {
+    border-top: 1px solid var(--ui-divider)
+}
+
+.service-symbol {
+    width: 28px;
+    height: 28px;
+    color: var(--ui-link);
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 1px
+}
+
+.agency-support-item h4 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -.02em
+}
+
+.agency-support-item p {
+    grid-column: 2;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ui-muted);
+    margin-top: 10px
+}
+
+.agency-support-item .r-text-link {
+    grid-column: 2;
+    justify-self: start;
+    align-self: end;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.4;
+    min-height: 44px;
+    margin-top: 12px;
+    padding: 4px 0;
+    color: var(--ui-link);
+    white-space: normal;
+    text-align: left
+}
+
+.agency-support-item .r-text-link:hover {
+    color: var(--ui-link-hover);
+    text-decoration: underline;
+    text-underline-offset: 4px
+}
+
+.agency-support-item .r-text-link .ui-icon {
+    width: 18px;
+    height: 18px;
+    flex: none
+}
+
+/* The same card also stacks its art when the available copy column is narrow. */
+@container agency-service (max-width:490px) {
+    .agency-service-copy {
+        max-width: none
+    }
+
+    .agency-service h3 {
+        font-size: clamp(26px, 7.5cqw, 34px)
+    }
+
+    .agency-service-copy > p:not(.agency-service-subtitle) {
+        max-width: 32ch;
+        min-height: 0
+    }
+
+    .agency-service-art {
+        position: relative;
+        display: block;
+        right: auto;
+        bottom: auto;
+        max-width: 350px;
+        width: 90%;
+        height: 245px;
+        margin: 18px -20px 0 auto
+    }
+
+    .agency-service-links {
+        gap: 4px;
+        padding: 8px 10px
+    }
+
+    .agency-service-links a, .agency-service-links button {
+        gap: 8px;
+        padding-inline: 8px;
+        font-size: 13px
+    }
+}
+
+@media (max-width: 700px) {
+    .agency-primary-services {
+        grid-template-columns:1fr;
+        gap: 20px
+    }
+
+    .agency-service {
+        padding: 26px 24px 70px
+    }
+
+    .agency-service h3 {
+        font-size: 30px
+    }
+
+    .agency-support-head {
+        display: block;
+        margin-top: 32px;
+        padding-top: 30px;
+        margin-bottom: 6px
+    }
+
+    .agency-support-head h3 {
+        font-size: 26px
+    }
+
+    .agency-support-head p {
+        margin-top: 12px
+    }
+}
+
+.agency-proof {
+    background: var(--ui-editorial-warm);
+    color: var(--ui-ink)
+}
+
+.agency-proof-intro {
+    display: grid;
+    grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);
+    gap: 64px;
+    align-items: center
+}
+
+.agency-team-photo {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    min-width: 0
+}
+
+.agency-team-photo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    border-radius: 16px
+}
+
+.agency-team-photo figcaption {
+    padding-top: 14px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ui-muted)
+}
+
+.agency-proof-copy h2 {
+    margin-top: 24px
+}
+
+.agency-proof-copy > p:not(.r-kicker) {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ui-ink);
+    margin-top: 24px;
+    max-width: 520px
+}
+
+.agency-proof-copy .r-text-link {
+    margin-top: 20px;
+    color: var(--ui-link)
+}
+
+.agency-proof-copy .r-text-link:hover {
+    color: var(--ui-link-hover)
+}
+
+.agency-process-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 48px
+}
+
+.agency-process-heading h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.025em
+}
+
+.agency-process-heading p {
+    font-size: 14px;
+    color: var(--ui-muted)
+}
+
+.agency-process {
+    display: grid;
+    grid-template-columns:repeat(4, minmax(0, 1fr));
+    padding: 0;
+    margin: 26px 0 0;
+    list-style: none;
+    border-top: 1px solid #252b2e26
+}
+
+.agency-process li {
+    padding: 26px 26px 0 0
+}
+
+.agency-process li + li {
+    padding-left: 26px;
+    border-left: 1px solid #252b2e26
+}
+
+.agency-process li > span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.025em;
+    color: var(--ui-link)
+}
+
+.agency-process h4 {
+    margin: 14px 0 0;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.2;
+    letter-spacing: -.02em
+}
+
+.agency-process p {
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ui-ink);
+    margin-top: 13px
+}
+
+.r-catalog--search > .r-search {
+    width: 100%;
+    margin: 0 0 36px;
+    background: var(--ui-surface-soft);
+    box-shadow: none
+}
+
+.r-catalog--search > .r-section-head h2 {
+    font-weight: 600
+}
+
+.r-catalog--search .search-heading h2 {
+    font-size: 23px
+}
+
+.r-company-life + .r-closing {
+    padding-top: 58px
+}
+
+.gallery-section > .agency-services {
+    width: 100%;
+    padding-block: 0
+}
+
+/* Graphite mortgage section; light cards retain their own foreground. */
+.mortgage-section--graphite .r-kicker {
+    color: var(--ui-muted-on-dark)
+}
+
+.mortgage-section--graphite h2 {
+    font-weight: 600
+}
+
+.mortgage-section--graphite .mortgage-copy > p:not(.r-kicker),
+.mortgage-section--graphite .mortgage-bank-note {
+    color: var(--ui-muted-on-dark)
+}
+
+.mortgage-section--graphite .mortgage-benefits .ui-icon {
+    color: var(--ui-accent)
+}
+
+.mortgage-section--graphite .mortgage-preview,
+.mortgage-section--graphite .mortgage-topic {
+    color: var(--ui-ink)
+}
+
+.agency-proof > .r-section {
+    padding-block: 72px
+}
+
+.agency-proof + .r-company-life {
+    padding-top: 88px;
+    padding-bottom: 88px
+}
+
+/* Editorial pause between the company stories and the closing conversation.
+   The original feature + two text cards remain the shared journal renderer. */
+.r-journal.r-journal--v3 {
+    padding-block: 104px
+}
+
+.r-journal--v3 .journal-card {
+    min-height: 388px
+}
+
+.r-journal--v3 .journal-card h3 {
+    margin-top: 24px
+}
+
+.r-journal--v3 .journal-card .r-kicker {
+    line-height: 1.5;
+    min-height: 30px;
+    align-items: flex-start
+}
+
+.journal-summary {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--muted);
+    margin-top: 18px
+}
+
+.r-journal--v3 .journal-image img {
+    object-position: 48% center
+}
+
+.r-journal--v3 .r-section-head h2 {
+    font-weight: 600
+}
+
+.r-journal--v3 .journal-card:not(.journal-feature) {
+    background: var(--ui-editorial-cool)
+}
+
+.r-journal--v3 .journal-card:last-child {
+    background: var(--ui-editorial-warm)
+}
+
+.r-journal--v3 .journal-card h3 {
+    font-weight: 600
+}
+
+.r-journal--v3 .journal-image img {
+    filter: none
+}
+
+.r-journal--v3 .journal-card-action {
+    background: color-mix(in srgb, var(--ui-ink) 8%, transparent);
+    color: var(--ui-ink)
+}
+
+.r-journal--v3 .journal-card:hover .journal-card-action {
+    background: color-mix(in srgb, var(--ui-ink) 14%, transparent)
+}
+
+.r-journal--v3 .journal-card:not(.journal-feature):hover {
+    background: var(--ui-surface-soft)
+}
+
+/* Preserve the same sections at narrow widths; no fixed desktop grid overflow. */
+@media (max-width: 1100px) {
+    .r-intro--services .r-hero {
+        grid-template-columns:minmax(0, 1fr) 340px;
+        gap: 32px
+    }
+
+    .r-intro--services .r-hero h1 {
+        font-size: clamp(48px, 6vw, 68px)
+    }
+
+    .agency-proof-intro {
+        gap: 36px
+    }
+}
+
+@media (max-width: 980px) {
+    .agency-support-grid {
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        column-gap: 32px
+    }
+
+    .agency-support-item:nth-child(n+3) {
+        border-top: 1px solid var(--ui-divider)
+    }
+
+    .r-intro--services .r-hero {
+        grid-template-columns:1fr;
+        gap: 48px
+    }
+
+    .r-intro--services .r-promotions--hero {
+        max-width: 560px;
+        width: 100%
+    }
+
+    .r-intro--services .r-hero h1 {
+        font-size: clamp(48px, 8vw, 76px)
+    }
+
+    .agency-proof-intro {
+        grid-template-columns:1fr;
+        gap: 32px
+    }
+
+    .agency-proof-copy {
+        max-width: 650px
+    }
+
+    .agency-proof-copy > p:not(.r-kicker) {
+        max-width: none
+    }
+
+    .agency-process {
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        gap: 32px 0
+    }
+
+    .agency-process li:nth-child(3) {
+        border-left: 0;
+        padding-left: 0
+    }
+}
+
+@media (max-width: 700px) {
+    .agency-support-grid {
+        grid-template-columns:1fr;
+        gap: 0
+    }
+
+    .agency-support-item {
+        padding: 22px 0 18px;
+        grid-template-rows:auto auto auto;
+        align-items: start
+    }
+
+    .agency-support-item + .agency-support-item {
+        border-top: 1px solid var(--ui-divider)
+    }
+
+    .agency-support-item h4 {
+        min-height: 0
+    }
+
+    .agency-support-item p, .agency-support-item .r-text-link {
+        grid-column: 1/-1
+    }
+
+    .agency-support-item p {
+        margin-top: 12px
+    }
+
+    .agency-support-item .r-text-link {
+        margin-top: 8px
+    }
+
+    .r-intro--services .r-hero {
+        padding-top: 30px;
+        padding-bottom: 36px
+    }
+
+    .r-intro--services .r-hero h1 {
+        font-size: clamp(36px, 9.8vw, 64px)
+    }
+
+    .hero-trust {
+        gap: 12px
+    }
+
+    .hero-trust > img {
+        width: 64px;
+        height: 64px
+    }
+
+    .hero-trust-arrow {
+        margin-left: 0
+    }
+
+    .agency-proof > .r-section {
+        padding-block: 56px
+    }
+
+    .agency-proof + .r-company-life {
+        padding-block: 56px
+    }
+
+    .agency-process-heading {
+        display: block;
+        margin-top: 38px
+    }
+
+    .agency-process-heading p {
+        margin-top: 12px
+    }
+
+    .agency-process li, .agency-process li + li {
+        padding-right: 16px
+    }
+
+    .agency-process li:nth-child(even) {
+        padding-left: 16px
+    }
+
+    .agency-process li > span {
+        font-size: 24px
+    }
+
+    .agency-process h4 {
+        font-size: 19px
+    }
+
+    .agency-process p {
+        font-size: 14px
+    }
+
+    .r-journal.r-journal--v3 {
+        padding-block: 66px
+    }
+}

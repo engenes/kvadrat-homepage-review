@@ -1,0 +1,35 @@
+/* Shared contrast action for editorial color surfaces. Geometry belongs to
+   each existing button family; this variant only supplies its semantic tone. */
+.r-button.r-button--contrast,
+.ui-library .ui-button.ui-button--contrast {
+  background: var(--ui-dark);
+  color: var(--ui-on-dark);
+}
+.r-button.r-button--contrast:hover:not(:disabled):not([aria-busy=true]),
+.ui-library .ui-button.ui-button--contrast:hover:not(:disabled):not([aria-busy=true]) {
+  background: #3b4b53;
+}
+.r-button--contrast .button-icon {
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+}
+.r-button.r-button--contrast:disabled,
+.ui-library .ui-button.ui-button--contrast:disabled {
+  background: var(--ui-disabled-surface);
+  color: var(--ui-muted);
+  cursor: not-allowed;
+  transform: none;
+}
+.r-button--contrast:disabled .button-icon {
+  background: var(--ui-surface-soft);
+  color: var(--ui-muted);
+}
+.ui-library .ui-button.ui-button--contrast[aria-busy=true] {
+  cursor: wait;
+}
+@media (forced-colors: active) {
+  .r-button--contrast,
+  .ui-button--contrast {
+    outline: 1px solid ButtonText;
+  }
+}
